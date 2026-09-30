@@ -1,0 +1,101 @@
+{
+  "status": "PASS: pinned source and collateral checks only",
+  "source_commit": "699e2c10b2b494a120745515f59df8815f4f0175",
+  "cell": "gt2_6t_inv_x1_w31_lvt",
+  "source_files_sha256_verified": 83,
+  "cdl_device_count": 2,
+  "ideal_switch_truth_table": [
+    {
+      "A": 0,
+      "Y": 1
+    },
+    {
+      "A": 1,
+      "Y": 0
+    }
+  ],
+  "lef_size_um": [
+    "0.084",
+    "0.144"
+  ],
+  "lib_area": "0.012096",
+  "pins": {
+    "A": {
+      "direction": "INPUT",
+      "use": "SIGNAL",
+      "layer": "M1",
+      "rect_um": [
+        "0.014",
+        "0.015",
+        "0.028",
+        "0.129"
+      ]
+    },
+    "Y": {
+      "direction": "OUTPUT",
+      "use": "SIGNAL",
+      "layer": "M1",
+      "rect_um": [
+        "0.056",
+        "0.015",
+        "0.07",
+        "0.129"
+      ]
+    },
+    "vdd": {
+      "direction": "INOUT",
+      "use": "POWER",
+      "layer": "BPR",
+      "rect_um": [
+        "0",
+        "0.128",
+        "0.084",
+        "0.16"
+      ]
+    },
+    "vss": {
+      "direction": "INOUT",
+      "use": "GROUND",
+      "layer": "BPR",
+      "rect_um": [
+        "0",
+        "-0.016",
+        "0.084",
+        "0.016"
+      ]
+    }
+  },
+  "gds_structure_count": 72,
+  "gds_cell_layer_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    20,
+    22,
+    25,
+    235
+  ],
+  "gds_cell_text_labels": [
+    "A",
+    "Y",
+    "vdd",
+    "vss"
+  ],
+  "gds_cell_references": [],
+  "not_run": [
+    "Custom Compiler import",
+    "ICV DRC",
+    "ICV LVS",
+    "SPICE",
+    "OpenROAD/PnR"
+  ]
+}
