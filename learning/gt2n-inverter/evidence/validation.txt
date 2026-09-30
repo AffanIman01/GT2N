@@ -1,0 +1,12 @@
+2026-09-30 — assistant-run preparation checks
+Python 3.12.14
+PASS: fresh audit equals committed evidence
+PASS: changed source hash rejected
+PASS: malformed/truncated/no-ENDLIB GDS rejected
+PASS: GDS padding after ENDLIB terminates correctly
+PASS: repeated prepare refuses to overwrite work/
+PASS: generated DRC/LVS differ from upstream only by documented input bindings
+PASS: selected CDL and full upstream notice preserved
+PASS: GDS and rule includes copied byte-for-byte
+PASS: relative Markdown links resolve
+NOT RUN: Custom Compiler, ICV DRC/LVS, SPICE, KLayout GUI, OpenROAD
